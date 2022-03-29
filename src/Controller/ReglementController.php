@@ -10,7 +10,7 @@ use Symfony\Component\Routing\Annotation\Route;
 class ReglementController extends AbstractController
 {
     /**
-     * @Route("/reglement")
+     * @Route("/reglement", name="regle")
      */
     public function home(): Response
     {
